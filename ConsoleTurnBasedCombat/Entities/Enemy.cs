@@ -4,7 +4,7 @@ namespace ConsoleTurnBasedCombat.Entities
 {
     internal class Enemy
     {
-        public int Hp { get; set; } = 1;
+        public int Hp { get; set; } = 40;
         public Random Random { get; set; } = new Random();
 
 
