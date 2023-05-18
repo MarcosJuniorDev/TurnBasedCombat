@@ -13,8 +13,7 @@ namespace ConsoleTurnBasedCombat.Entities
         public int Dano()
         {
             int dano = Random.Next(1, 7);
-            Console.WriteLine($"Player attack enemy and deals {dano} damage!");
-
+            Console.WriteLine($"Player attack enemy and deals {dano} damage!");            
             return dano;
 
             
